@@ -1,0 +1,8 @@
+{
+  "name": "CMC6412_KTC",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
