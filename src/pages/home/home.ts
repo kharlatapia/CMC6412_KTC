@@ -30,4 +30,8 @@ TeoremaGeneral(){
 TeoremaReciproco(){
   this.navCtrl.push("TeoremaReciprocoPage");
 }
+
+Actividades(){
+  this.navCtrl.push("ActividadesPage");
+}
 }

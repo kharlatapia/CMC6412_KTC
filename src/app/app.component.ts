@@ -26,7 +26,8 @@ export class MyApp {
       { title: 'Origen Teorema de Thales', component: "OrigenTeoremaPage", icon: "school"},
       {title: 'Teorema Particular de Thales', component:"TeoremaParticularPage", icon: "school"},
       {title: 'Teorema General de Thales', component:"TeoremaGeneralPage", icon: "school"},
-      {title: 'Teorema Recíproco de Thales', component:"TeoremaReciprocoPage", icon: "school"}
+      {title: 'Teorema Recíproco de Thales', component:"TeoremaReciprocoPage", icon: "school"},
+      {title: 'Actividades Complementarias', component:"ActividadesPage", icon: "school"}
     ];
   }
   openPage(p){

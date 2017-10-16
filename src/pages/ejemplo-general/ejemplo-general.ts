@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the TeoremaReciprocoPage page.
+ * Generated class for the EjemploGeneralPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,19 +10,19 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-teorema-reciproco',
-  templateUrl: 'teorema-reciproco.html',
+  selector: 'page-ejemplo-general',
+  templateUrl: 'ejemplo-general.html',
 })
-export class TeoremaReciprocoPage {
+export class EjemploGeneralPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad TeoremaReciprocoPage');
+    console.log('ionViewDidLoad EjemploGeneralPage');
   }
-EjemploVida(){
-  this.navCtrl.push("EjemploVidaPage");
-}
 
+  TeoremaGeneral () {
+    this.navCtrl.push("TeoremaGeneralPage");
+  }
 }

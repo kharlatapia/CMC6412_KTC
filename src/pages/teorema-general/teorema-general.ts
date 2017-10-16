@@ -21,5 +21,8 @@ export class TeoremaGeneralPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad TeoremaGeneralPage');
   }
+  EjemploGeneral(){
+    this.navCtrl.push("EjemploGeneralPage");
+  }
 
 }
